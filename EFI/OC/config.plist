@@ -647,8 +647,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -779,7 +778,7 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Path</key>
-				<string>OpenShell.efi</string>
+				<string>modGRUBShell.efi</string>
 				<key>Auxiliary</key>
 				<true/>
 			</dict>
