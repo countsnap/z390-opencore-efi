@@ -392,6 +392,8 @@
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<false/>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -617,8 +619,6 @@
 			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
-			<key>DummyPowerManagement</key>
-			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -633,6 +633,8 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<true/>
+			<key>LegacyCommpage</key>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -647,7 +649,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -716,7 +719,7 @@
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
-			<true/>
+			<false/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 			<key>DmgLoading</key>
@@ -883,6 +886,8 @@
 			<string>C02Z10YNJV3Q</string>
 			<key>SystemUUID</key>
 			<string>1AA0166D-EA16-42F5-B826-7A5AF0DCEF29</string>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
