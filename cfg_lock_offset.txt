@@ -1,1 +1,2 @@
 One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x6F5
+One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x700 <-- 7B17v1B
